@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-unload-model-fork"
+description = "Node de debug para unloading de modelos no ComfyUI, incluindo métricas de memória antes e depois da limpeza. Inclui passthrough e logs detalhados."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/joaomede/ComfyUI-Unload-Model-Fork"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "joaomede" # ou seu nick do Comfy Registry
+DisplayName = "ComfyUI-Unload-Model-Fork"
+Icon = ""
